@@ -1,9 +1,13 @@
+import tryBlurt from './assets/Try Blurt.png'
+import Screens from './assets/Screens.png'
+import githubMark from './assets/github-mark.png'
+
 function App() {
   return (
     <>
       <div className='flex'>
         <div className="w-[50vw] h-[100vh] justify-center-safe flex flex-col ml-[9vw]">
-          <img className="w-[27vw] mb-[1.4vw]" src="/src/assets/Try Blurt.png" draggable="false"/>
+          <img className="w-[27vw] mb-[1.4vw]" src={tryBlurt} draggable="false"/>
 
           <p className="font-bold mb-[2vw] text-[1.1vw] text-[#595959] w-[24vw]">Add custom sound effects, play them instantly, and enjoy fun times with friends!</p>
 
@@ -15,7 +19,7 @@ function App() {
             </button>
 
             <button className="bg-white h-[9.5vh] w-[5vw] font-medium text-[#595959] rounded-[1.3vw] [box-shadow:0_0_0_0.3vw_#424242,0.3vw_0.25vw_0_0.2vw_#3B3B3B] flex items-center justify-center cursor-pointer">
-              <img src="/src/assets/github-mark.png" alt="GitHub Logo" className="h-[60%] w-auto" draggable="false"/>
+              <img src={githubMark} alt="GitHub Logo" className="h-[60%] w-auto" draggable="false"/>
             </button>
           </div>
 
@@ -23,7 +27,7 @@ function App() {
 
         </div>
         <div className="w-[50vw] h-[100vh] items-center justify-center flex absolute right-[1.5vw]">
-          <img className="w-[23vw]" src="/src/assets/Screens.png" draggable="false" />
+          <img className="w-[23vw]" src={Screens} draggable="false" />
         </div>
       </div>
     </>
