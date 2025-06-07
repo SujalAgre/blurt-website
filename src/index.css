@@ -1,17 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Inter-Black';
-  src: url('/public//fonts/Inter_28pt-Black.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  background-image: url(Background.png);
+  background-image: url(/Background.png);
   background-size: cover;
-}
-
-.tryBlurt{
-  font-family: Inter-Black;
 }
