@@ -11,7 +11,7 @@ function App() {
 
           <p className="font-bold sm:mb-[10px] md:mb-[2vw] sm:w-[80vw] sm:text-[13px] sm:text-center md:text-[1.1vw] text-[#595959] md:w-[24vw]">Add custom sound effects, play them instantly, and enjoy fun times with friends!</p>
 
-          <p className="font-medium sm:mb-[10px] md:mb-[2.5vw] sm:text-[15px] sm:text-center md:text-[1.1vw] text-[#3C3C3C] md:w-[25vw]">Available Platform: Android</p>
+          <p className="font-medium sm:mb-[10px] md:mb-[2.5vw] sm:text-[15px] sm:text-center md:text-[1.1vw] text-[#3C3C3C] md:w-[25vw]">Available on Android</p>
 
           <div className="flex flex-row">
             <a href="https://github.com/SujalAgre/Blurt/releases/download/v1.0/blurt-app.apk" target='_blank'>
