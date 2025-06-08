@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className='flex md:flex-row sm:flex-col '>
-        <div className="sm:w-[100vw] sm:h-[100vh] md:w-[50vw] md:h-[100vh] items-center justify-center flex flex-col ">
+        <div className="sm:w-[100vw] sm:h-[90vh] md:w-[50vw] md:h-[100vh] items-center justify-center flex flex-col ">
           <img className="sm:w-[250px] md:w-[27vw] sm:mb-[10px] md:mb-[1.4vw]" src={tryBlurt} draggable="false" />
 
           <p className="font-bold sm:mb-[10px] md:mb-[2vw] sm:w-[80vw] sm:text-[13px] sm:text-center md:text-[1.1vw] text-[#595959] md:w-[24vw]">Add custom sound effects, play them instantly, and enjoy fun times with friends!</p>
