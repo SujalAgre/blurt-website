@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-sm: 300px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+* {
+  outline: none;
+}
+
 body {
-  background-image: url(/Background.png);
   background-size: cover;
 }
+
+@media screen and (min-width: 300px) {
+  body {
+    background-image: url(/background-mobile.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(/Background.png);
+  }
+}
+
