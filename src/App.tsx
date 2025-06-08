@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className='flex md:flex-row sm:flex-col '>
-        <div className="sm:w-[100vw] sm:h-[90vh] md:w-[50vw] md:h-[100vh] items-center justify-center flex flex-col ">
+        <div className="sm:w-[100vw] sm:h-[85vh] md:w-[50vw] md:h-[100vh] items-center justify-center flex flex-col ">
           <img className="sm:w-[250px] md:w-[27vw] sm:mb-[10px] md:mb-[1.4vw]" src={tryBlurt} draggable="false" />
 
           <p className="font-bold sm:mb-[10px] md:mb-[2vw] sm:w-[80vw] sm:text-[13px] sm:text-center md:text-[1.1vw] text-[#595959] md:w-[24vw]">Add custom sound effects, play them instantly, and enjoy fun times with friends!</p>
@@ -15,13 +15,13 @@ function App() {
 
           <div className="flex flex-row">
             <a href="https://github.com/SujalAgre/Blurt/releases/download/v1.0/blurt-app.apk" target='_blank'>
-              <button className="bg-white sm:h-[7vh] sm:w-[130px] md:h-[9.5vh] md:w-[13vw] font-medium text-[#595959] sm:rounded-[13px] md:rounded-[1.3vw] sm:[box-shadow:0_0_0_3px_#424242,2.5px_2.5px_0_2px_#3B3B3B] md:[box-shadow:0_0_0_0.3vw_#424242,0.3vw_0.25vw_0_0.2vw_#3B3B3B] md:text-[1.3vw] sm:mr-[15px] md:mr-[1.5vw] cursor-pointer">
+              <button className="bg-white sm:h-[53px] sm:w-[140px] md:h-[9.5vh] md:w-[13vw] font-medium text-[#595959] sm:rounded-[13px] md:rounded-[1.3vw] sm:[box-shadow:0_0_0_3px_#424242,2.5px_2.5px_0_2px_#3B3B3B] md:[box-shadow:0_0_0_0.3vw_#424242,0.3vw_0.25vw_0_0.2vw_#3B3B3B] md:text-[1.3vw] sm:mr-[17px] md:mr-[1.5vw] cursor-pointer">
                 Download App
               </button>
             </a>
 
             <a href="https://github.com/SujalAgre/Blurt" target='_blank'>
-              <button className="bg-white sm:h-[7vh] sm:w-[50px] sm:rounded-[13px] md:h-[9.5vh] md:w-[5vw] font-medium text-[#595959] md:rounded-[1.3vw] sm:[box-shadow:0_0_0_3px_#424242,2.5px_2.5px_0_2px_#3B3B3B] md:[box-shadow:0_0_0_0.3vw_#424242,0.3vw_0.25vw_0_0.2vw_#3B3B3B] flex items-center justify-center cursor-pointer">
+              <button className="bg-white sm:h-[53px] sm:w-[53px] sm:rounded-[13px] md:h-[9.5vh] md:w-[5vw] font-medium text-[#595959] md:rounded-[1.3vw] sm:[box-shadow:0_0_0_3px_#424242,2.5px_2.5px_0_2px_#3B3B3B] md:[box-shadow:0_0_0_0.3vw_#424242,0.3vw_0.25vw_0_0.2vw_#3B3B3B] flex items-center justify-center cursor-pointer">
                 <img src={githubMark} alt="GitHub Logo" className="h-[60%] w-auto" draggable="false" />
               </button>
             </a>
